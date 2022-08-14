@@ -1,0 +1,18 @@
+.main-edit-comment {
+  display: grid;
+  width: 35%;
+  row-gap: 1rem;
+}
+
+.main-edit-comment h2 {
+  text-align: center;
+}
+
+.main-edit-comment button {
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+}

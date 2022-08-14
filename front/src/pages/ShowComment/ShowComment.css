@@ -1,0 +1,61 @@
+.main-show-comment {
+  display: grid;
+  width: 35%;
+  row-gap: 1rem;
+}
+
+.main-show-comment h2 {
+  text-align: center;
+}
+
+.main-show-comment button {
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.comment-list hr {
+  margin: 1rem 0rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.delete-button {
+  margin-right: 1rem;
+
+  background-color: #e03a3a;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #b83030;
+}
+
+.delete-button:active {
+  background-color: #b83030;
+}
+
+.comment-list {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.edit-button {
+  background-color: white;
+  border: 0px;
+  color: black;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.edit-button:hover {
+  background-color: #75a5d9;
+  color: white;
+}
+
+.edit-button:active {
+  background-color: #75a5d9;
+}
